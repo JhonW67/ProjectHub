@@ -92,7 +92,7 @@ A aplicação segue uma arquitetura baseada em componentes, com foco em reusabil
 
 ### Instalação
 
-\`\`\`sh
+```sh
 # Clonar o repositório
 git clone https://github.com/JhonW67/univag-project-showcase.git
 
@@ -104,7 +104,7 @@ npm install
 
 # Iniciar o servidor de desenvolvimento
 npm run dev
-\`\`\`
+```
 
 ## 🔮 Melhorias Futuras
 
