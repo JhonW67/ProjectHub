@@ -1,124 +1,124 @@
 
-# ProjectHub - UNIVAG Student Projects Management Platform
+# ProjectHub - Plataforma de Gerenciamento de Projetos de Estudantes da UNIVAG
 
-## 📖 About the Project
+## 📖 Sobre o Projeto
 
-ProjectHub is a comprehensive web application designed for UNIVAG (Universidade de Várzea Grande) to facilitate the management, presentation, and evaluation of student projects. The platform serves as a centralized hub where students can showcase their work, professors can evaluate projects, and the institution can organize project-based events.
+O ProjectHub é uma aplicação web abrangente desenvolvida para a UNIVAG (Universidade de Várzea Grande) com o objetivo de facilitar o gerenciamento, apresentação e avaliação de projetos estudantis. A plataforma funciona como um hub centralizado onde estudantes podem exibir seus trabalhos, professores podem avaliar projetos e a instituição pode organizar eventos relacionados a projetos.
 
-The system aims to enhance the visibility of student work, streamline project evaluation processes, and create a digital portfolio of academic achievements within the university environment.
+O sistema busca aumentar a visibilidade dos trabalhos dos alunos, otimizar os processos de avaliação de projetos e criar um portfólio digital dos feitos acadêmicos dentro do ambiente universitário.
 
-## 🚀 Main Features
+## 🚀 Principais Funcionalidades
 
-### For Students:
-- Create and manage project profiles with detailed descriptions
-- Upload project documentation and resources
-- Collaborate with team members in groups
-- Receive feedback and evaluations from professors
-- Showcase their work to the university community
+### Para Estudantes:
+- Criar e gerenciar perfis de projetos com descrições detalhadas
+- Fazer upload de documentação e recursos do projeto
+- Colaborar com membros da equipe em grupos
+- Receber feedback e avaliações dos professores
+- Exibir seus trabalhos para a comunidade universitária
 
-### For Professors:
-- Evaluate student projects using standardized criteria
-- Provide feedback to student teams
-- View comprehensive data on student performance
-- Track project progression over semesters
+### Para Professores:
+- Avaliar projetos de alunos com critérios padronizados
+- Fornecer feedback às equipes de estudantes
+- Visualizar dados completos sobre o desempenho dos alunos
+- Acompanhar a progressão dos projetos ao longo dos semestres
 
-### For Administrators:
-- Create and manage events (fairs, exhibitions, competitions)
-- Monitor overall project quality across departments
-- Generate reports on project performance metrics
-- Manage user accounts and permissions
+### Para Administradores:
+- Criar e gerenciar eventos (feiras, exposições, competições)
+- Monitorar a qualidade geral dos projetos entre departamentos
+- Gerar relatórios sobre métricas de desempenho dos projetos
+- Gerenciar contas de usuários e permissões
 
-## 🛠️ Technologies Used
+## 🛠️ Tecnologias Utilizadas
 
 - **Frontend**:
-  - React.js (with TypeScript)
-  - Tailwind CSS for styling
-  - shadcn/ui component library
-  - React Router for navigation
-  - Lucide Icons for UI elements
-  - React Query for data fetching
+  - React.js (com TypeScript)
+  - Tailwind CSS para estilização
+  - Biblioteca de componentes shadcn/ui
+  - React Router para navegação
+  - Lucide Icons para elementos visuais
+  - React Query para busca de dados
 
-- **Build Tools**:
-  - Vite for fast development and optimized production builds
-  - TypeScript for type safety and developer experience
+- **Ferramentas de Build**:
+  - Vite para desenvolvimento rápido e builds otimizadas
+  - TypeScript para segurança de tipos e melhor experiência de desenvolvimento
 
-## 🏗️ Project Architecture
+## 🏗️ Arquitetura do Projeto
 
-The application follows a component-based architecture with a focus on reusability and maintainability:
+A aplicação segue uma arquitetura baseada em componentes, com foco em reusabilidade e manutenção:
 
-- **Pages**: Main route components that compose the application views
-- **Components**: Reusable UI elements organized by functionality
-- **Hooks**: Custom React hooks for shared logic
-- **Lib**: Utility functions, data handling, and business logic
-- **Types**: TypeScript type definitions for the application
+- **Páginas**: Componentes principais das rotas que compõem as visualizações da aplicação
+- **Componentes**: Elementos de interface reutilizáveis, organizados por funcionalidade
+- **Hooks**: Hooks personalizados do React para lógica compartilhada
+- **Lib**: Funções utilitárias, manipulação de dados e lógica de negócios
+- **Types**: Definições de tipos TypeScript para a aplicação
 
-## 💼 Business Rules
+## 💼 Regras de Negócio
 
-### Projects
-- Each project must be associated with a student group
-- Projects must be submitted for a specific event
-- Projects require a title, description, and can include additional documentation
-- Projects can receive evaluations from multiple professors
-- Projects can receive feedback from any user in the system
+### Projetos
+- Cada projeto deve estar associado a um grupo de estudantes
+- Projetos devem ser submetidos para um evento específico
+- Projetos requerem título, descrição e podem incluir documentação adicional
+- Projetos podem receber avaliações de múltiplos professores
+- Projetos podem receber feedback de qualquer usuário do sistema
 
-### Groups
-- Groups must have at least one student member
-- Groups are associated with a specific course and semester
-- Each group can have only one active project at a time
-- Group members have equal access to project management
+### Grupos
+- Grupos devem ter pelo menos um estudante
+- Grupos estão associados a um curso e semestre específicos
+- Cada grupo pode ter apenas um projeto ativo por vez
+- Membros do grupo têm acesso igual ao gerenciamento do projeto
 
-### Events
-- Events have start and end dates, themes, and locations
-- Events may be active (upcoming/ongoing) or inactive (past)
-- Events are organized by semester (e.g., 2025.1, 2024.2)
-- Each event has a specific theme that guides the project focus
+### Eventos
+- Eventos possuem datas de início e fim, temas e locais
+- Eventos podem estar ativos (futuros/em andamento) ou inativos (passados)
+- Eventos são organizados por semestre (ex.: 2025.1, 2024.2)
+- Cada evento tem um tema específico que orienta o foco dos projetos
 
-### Evaluations
-- Evaluations can only be created by professors
-- Evaluations include scores across multiple criteria (innovation, execution, presentation, impact)
-- Evaluations include qualitative feedback in addition to numeric scores
-- Professors can only evaluate each project once
+### Avaliações
+- Apenas professores podem criar avaliações
+- Avaliações incluem notas em múltiplos critérios (inovação, execução, apresentação, impacto)
+- Avaliações incluem feedback qualitativo além das pontuações numéricas
+- Professores só podem avaliar cada projeto uma vez
 
-### Users
-- Users can be students, professors, or administrators
-- Students belong to a specific course and semester
-- Professors are associated with specific courses and classes they teach
-- User permissions vary based on their role in the system
+### Usuários
+- Usuários podem ser estudantes, professores ou administradores
+- Estudantes pertencem a um curso e semestre específicos
+- Professores são associados a cursos e turmas que lecionam
+- Permissões variam conforme o papel do usuário no sistema
 
-## 🚦 Getting Started
+## 🚦 Como Começar
 
-### Prerequisites
-- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Pré-requisitos
+- Node.js e npm instalados - [instale com nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### Installation
+### Instalação
 
-```sh
-# Clone the repository
-git clone <repository-url>
+\`\`\`sh
+# Clonar o repositório
+git clone https://github.com/JhonW67/univag-project-showcase.git
 
-# Navigate to the project directory
-cd projecthub
+# Navegar até o diretório do projeto
+cd univag-project-showcase
 
-# Install dependencies
+# Instalar dependências
 npm install
 
-# Start the development server
+# Iniciar o servidor de desenvolvimento
 npm run dev
-```
+\`\`\`
 
-## 🔮 Future Enhancements
+## 🔮 Melhorias Futuras
 
-- User authentication integration
-- Real-time notifications for feedback and evaluations
-- Advanced analytics dashboard for institutional reporting
-- Mobile application for on-the-go access
-- Integration with university LMS (Learning Management System)
-- QR code generation for physical event displays
+- Integração de autenticação de usuários
+- Notificações em tempo real para feedback e avaliações
+- Painel de análise avançada para relatórios institucionais
+- Aplicativo móvel para acesso em movimento
+- Integração com o sistema de gerenciamento de aprendizado (LMS) da universidade
+- Geração de QR codes para exibições em eventos presenciais
 
-## 📄 License
+## 📄 Licença
 
-This project is for educational purposes and is intended for use within UNIVAG.
+Este projeto tem fins educacionais e é destinado ao uso dentro da UNIVAG.
 
 ---
 
-Developed with ❤️ for UNIVAG student projects
+Desenvolvido com ❤️ para os projetos estudantis da UNIVAG
