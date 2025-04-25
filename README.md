@@ -94,7 +94,7 @@ A aplicação segue uma arquitetura baseada em componentes, com foco em reusabil
 
 ```sh
 # Clonar o repositório
-git clone https://github.com/JhonW67/univag-project-showcase.git
+git clone https://github.com/JhonW67/ProjectHub.git
 
 # Navegar até o diretório do projeto
 cd univag-project-showcase
